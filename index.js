@@ -31,8 +31,8 @@ const io = socketIo(server, {
     cors: {
         origin: [
            'http://localhost:3000',
-    "assignment-crm-frontend-git-main-manas-projects-aab6747d.vercel.app",
-    "assignment-crm-frontend-h5wgp0uuw-manas-projects-aab6747d.vercel.app"
+    "https://assignment-crm-frontend-git-main-manas-projects-aab6747d.vercel.app",
+    "https://assignment-crm-frontend-h5wgp0uuw-manas-projects-aab6747d.vercel.app"
         ],
         methods: ['GET', 'POST' , 'PATCH'],
     },
@@ -77,8 +77,8 @@ io.on('connection', (socket) => {
 // ✅ Define allowed origins
 const allowedOrigins = [
     'http://localhost:3000',
-    "assignment-crm-frontend-git-main-manas-projects-aab6747d.vercel.app",
-    "assignment-crm-frontend-h5wgp0uuw-manas-projects-aab6747d.vercel.app"
+    "https://assignment-crm-frontend-git-main-manas-projects-aab6747d.vercel.app",
+    "https://assignment-crm-frontend-h5wgp0uuw-manas-projects-aab6747d.vercel.app"
 ];
 
 // ✅ Configure CORS
